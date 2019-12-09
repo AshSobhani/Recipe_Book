@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/boxId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/recipeName"
+        android:layout_width="137dp"
+        android:layout_height="65dp"
+        android:layout_weight="10"
+        android:gravity="center_vertical"
+        android:text="Recipe Name"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/recipeRating"
+        android:layout_width="84dp"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="R"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
